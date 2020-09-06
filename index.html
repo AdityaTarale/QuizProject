@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <title>Pro Programmer Quiz</title>
+</head>
+
+<body>
+
+    <!-- top section -->
+    <div class="intro py-3 bg-white text-center">
+        <div class="container">
+            <h2 class="text-secondary display-3 my-4">Pro Programmer Quiz</h2>
+        </div>
+    </div>
+
+    <!-- result section  -->
+    <div class="result py-4 d-none text-center bg-light">
+        <div class="container lead ">
+            <p>You are <span class="text-success display-4 p-3">0%</span>Pro</p>
+        </div>
+    </div>
+
+
+    <!-- quiz section -->
+    <div class="quiz py-4 bg-secondary">
+        <div class="container">
+            <h2 class="my-5 text-white">On with the questions...</h2>
+
+            <form class="quiz-form text-light">
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        1.Who is the father of C language
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="A" checked>
+                        <label class="from-check-label">Dennis Ritchie</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="B">
+                        <label class="from-check-label">James A. Gosling</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        2. Which HTML tag is used to define an internal style sheet??
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="A" checked>
+                        <label class="from-check-label">&lt;script&gt</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="B">
+                        <label class="from-check-label">&lt;style&gt</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        3.The _______ method of an Array object adds and/or removes elements from an array ?
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="A" checked>
+                        <label class="from-check-label">Slice</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="B">
+                        <label class="from-check-label">Splice</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        4.Who is making the Web standards?
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="A" checked>
+                        <label class="from-check-label">Mozilla</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="B">
+                        <label class="from-check-label">www Consortium</label>
+                    </div>
+                </div>
+                <div class="">
+                    <input type="submit" value="Submit" class="btn btn-light">
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
